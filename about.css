@@ -1,0 +1,37 @@
+.about__achievements {
+  margin-top: 3rem;
+}
+
+.about__achievements-container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 5rem;
+}
+
+.about__achievements-container > p {
+  margin: 1.6rem 0 2.5rem;
+}
+
+.about__achievements-right p {
+  margin-top: 2rem;
+}
+
+/* Media queries Tablet screen */
+
+@media screen and (max-width: 1024px) {
+  .about__achievements {
+    margin-top: 2rem;
+  }
+
+  .about__achievements-container {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .about__achievements-left {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/* Media queries Mobile screen */
